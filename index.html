@@ -19,6 +19,9 @@
               colors: {
                 clifford: '#da373d',
                 'button-bg': '#FF4240',
+                'text-color': '#131318',
+                'less-opacity': '#0D0D1263',
+
               }
             }
           }
@@ -31,11 +34,109 @@
     </style>
 </head>
 <body class="manrope-font">
-    <header>
-        
-    </header>
-    <main>
+    <header class="container mx-auto">
+        <!-- navbar start here -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li class="text-button-bg font-bold"><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                      
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-text-color">Hockey<span class="text-button-bg">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li  class="text-button-bg font-bold"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="">
+                        <img class="h-6 px-6" src="Images/frame.svg" alt="">
 
+                    </div>
+                    <div>
+                        <a class="px-2 py-1 lg:px-6 lg:py-4 rounded-lg bg-button-bg lg:text-xl font-bold text-white">Get Ticket</a>
+
+                    </div>
+                </div>
+              </div>
+        </nav>
+        <div>
+
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- Professional Hockeys Club section  -->
+        <section class="my-20">
+            <div>
+                <h1 class="text-4xl font-extrabold text-center text-text-color">Professional Hockeys Club</h1>
+                <p class="text-center w-1/2	mx-auto text-less-opacity font-medium mt-6">Welcome to Hockey’s, where the spirit of the game meets the pinnacle of professionalism. As a distinguished member of the professional hockey landscape, Hockey’s stands as a beacon of excellence</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-20">
+                <!-- 1st radial progress -->
+                <div class="card w-96 ">
+                    <div class="flex justify-center ">
+                        <div class="radial-progress text-[#ff4240]" style="--value:87;" role="progressbar "><span class="text-2xl text-text-color font-extrabold">87%</span></div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-xl font-semibold">Prayer Facility</h2>
+                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Recognizing the diverse backgrounds and beliefs of our athletes, </p>
+                      
+                  </div>
+                  
+                  </div>
+                   <!-- 2nd radial progress -->
+                <div class="card w-96 ">
+                    <div class="flex justify-center ">
+                        <div class="radial-progress text-[#49d293]" style="--value:95;" role="progressbar "><span class="text-2xl text-text-color font-extrabold">95%</span></div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-xl font-semibold">Experienced Coach</h2>
+                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Proven leader with extensive coaching expertise, guiding teams.Committed to cultivating champions and achieving peak performance</p>
+                      
+                  </div>
+                  
+                  </div>
+                   <!-- 3rd radial progress -->
+                <div class="card w-96 ">
+                    <div class="flex justify-center ">
+                        <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar "><span class="text-2xl text-text-color font-extrabold">90%</span></div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-xl font-semibold">Senior Player</h2>
+                      <p class="text-center w-3/4	mx-auto text-less-opacity">Seasoned veteran, exemplifying skill, leadership, and dedication. A pivotal force on and off the field, inspiring excellence and teamwork.</p>
+                      
+                  </div>
+                  
+                  </div>
+                   <!-- 4th radial progress -->
+                <div class="card w-96 ">
+                    <div class="flex justify-center ">
+                        <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar "><span class="text-2xl text-text-color font-extrabold">80%</span></div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-xl font-semibold">Training Ground</h2>
+                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Elite hockey training ground, fostering champions through cutting-edge facilities, expert coaching, and personalized development. The pinnacle of athletic excellence</p>
+                      
+                  </div>
+                  
+                  </div>
+            </div>
+        </section>
     </main>
     <footer>
 
