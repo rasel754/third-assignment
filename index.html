@@ -36,7 +36,7 @@
 <body class="manrope-font">
     <header class="container mx-auto">
         <!-- navbar start here -->
-        <nav>
+        <nav >
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -52,7 +52,7 @@
                       
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-text-color">Hockey<span class="text-button-bg">’</span>s</a>
+                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-text-color">Hockey<span class="text-button-bg -mx-2">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 ">
@@ -75,8 +75,31 @@
                 </div>
               </div>
         </nav>
-        <div>
-
+        <div class="relative" >
+            <div class="carousel w-full mt-14">
+                <div id="slide1" class="carousel-item relative w-full ">
+                  <img src="Images/banner.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/banner.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+               
+              </div>
+              <div class="flex justify-end lg:absolute right-8 bottom-8">
+                <div class="bg-text-color p-4 lg:p-8 rounded-2xl  w-[502px]">
+                    <h3 class="text-xl lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+                    <p class="text-[#ffffff99] font-medium pt-4">
+                       Gordie Howe, Sidney Crosby, Alexander Ovechkin, legends of hockey's storied history showcase greatness</p>
+                  </div>
+              </div>
         </div>
     </header>
     <main class="container mx-auto">
@@ -84,7 +107,7 @@
         <section class="my-20">
             <div>
                 <h1 class="text-4xl font-extrabold text-center text-text-color">Professional Hockeys Club</h1>
-                <p class="text-center w-1/2	mx-auto text-less-opacity font-medium mt-6">Welcome to Hockey’s, where the spirit of the game meets the pinnacle of professionalism. As a distinguished member of the professional hockey landscape, Hockey’s stands as a beacon of excellence</p>
+                <p class="text-center lg:w-1/2	mx-auto text-less-opacity font-medium mt-6">Welcome to Hockey’s, where the spirit of the game meets the pinnacle of professionalism. As a distinguished member of the professional hockey landscape, Hockey’s stands as a beacon of excellence</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-20">
                 <!-- 1st radial progress -->
@@ -94,7 +117,7 @@
                     </div>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-xl font-semibold">Prayer Facility</h2>
-                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Recognizing the diverse backgrounds and beliefs of our athletes, </p>
+                      <p class="text-center  lg:w-3/4	mx-auto text-less-opacity">Recognizing the diverse backgrounds and beliefs of our athletes, </p>
                       
                   </div>
                   
@@ -106,7 +129,7 @@
                     </div>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-xl font-semibold">Experienced Coach</h2>
-                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Proven leader with extensive coaching expertise, guiding teams.Committed to cultivating champions and achieving peak performance</p>
+                      <p class="text-center  lg:w-3/4	mx-auto text-less-opacity">Proven leader with extensive coaching expertise, guiding teams.Committed to cultivating champions and achieving peak performance</p>
                       
                   </div>
                   
@@ -118,7 +141,7 @@
                     </div>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-xl font-semibold">Senior Player</h2>
-                      <p class="text-center w-3/4	mx-auto text-less-opacity">Seasoned veteran, exemplifying skill, leadership, and dedication. A pivotal force on and off the field, inspiring excellence and teamwork.</p>
+                      <p class="text-center lg:w-3/4	mx-auto text-less-opacity">Seasoned veteran, exemplifying skill, leadership, and dedication. A pivotal force on and off the field, inspiring excellence and teamwork.</p>
                       
                   </div>
                   
@@ -130,7 +153,7 @@
                     </div>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-xl font-semibold">Training Ground</h2>
-                      <p class="text-center  w-3/4	mx-auto text-less-opacity">Elite hockey training ground, fostering champions through cutting-edge facilities, expert coaching, and personalized development. The pinnacle of athletic excellence</p>
+                      <p class="text-center  lg:w-3/4	mx-auto text-less-opacity">Elite hockey training ground, fostering champions through cutting-edge facilities, expert coaching, and personalized development. The pinnacle of athletic excellence</p>
                       
                   </div>
                   
