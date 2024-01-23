@@ -54,7 +54,7 @@
                       
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-text-color">Hockey<span class="text-button-bg -mx-2">’</span>s</a>
+                  <a class="btn btn-ghost p-0 text-2xl lg:text-4xl font-extrabold text-text-color">Hockey<span class="text-button-bg -mx-2">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 ">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="navbar-end">
                     <div class="">
-                        <img class="h-6 px-6" src="Images/frame.svg" alt="">
+                        <img class="h-6 px-6 hidden lg:block" src="Images/frame.svg" alt="">
 
                     </div>
                     <div>
@@ -188,7 +188,7 @@
                               </div>
                     </div>
                     <!-- Professional Program card -->
-                    <div class="col-span-1 lg:col-span-2 bg-[url('./Images/card3.png')] lg:h-[450px] lg:w-[1170px] px-3 lg:px-10 space-y-5 object-cover">
+                    <div class="col-span-1 lg:col-span-2 bg-[url('./Images/card3.png')] lg:h-[450px] lg:w-[1170px] px-3 lg:px-10 space-y-5 bg-cover bg-center">
                         <h2 class="card-title text-3xl text-white  font-extrabold pt-48">Professional Program</h2>
                               <p class="text-white font-medium lg:w-1/2">
                                 "Unleash elite potential in our professional hockey program, tailored for experienced players. Elevate skills, strategic prowess, and physical conditioning under expert coaching. Propel your career to new heights with us</p>
@@ -435,7 +435,69 @@
         </div>
         </section>
         <!-- get in touch section start here -->
-        <section>
+        <section class="mt-24">
+         <div>
+          <h1 class="text-4xl font-extrabold text-center text-text-color">Get In Touch</h1>
+          <p class="text-center lg:w-1/2	mx-auto text-less-opacity font-medium mt-6">Ready to elevate your experience? Connect with us today. Your vision, our expertise. Let's create something extraordinary together. Get in touch for personalized solutions and seamless collaboration.</p>
+         </div > 
+
+         <div class="mt-12 grid grid-cols-1 lg:grid-cols-3">
+          <div class="space-y-6 p-6">
+
+            <div class="w-[374px] h-[210px] bg-[#BCED6D1A] rounded-2xl p-8 ">
+              <img class="pb-6" src="Images/group1.png" alt="">
+              <p class="text-[ #13131866]">Phone Number : </p>
+              <h4 class="text-xl text-text-color font-extrabold">01624096876</h4>
+            </div>
+
+            <div class="w-[374px] h-[210px] bg-[#FDDB5F19] rounded-2xl p-8 ">
+              <img class="pb-6" src="Images/group2.png" alt="">
+              <p class="text-[ #13131866]">Email :  </p>
+              <h4 class="text-xl text-text-color font-extrabold">hockeys@support.com</h4>
+            </div>
+
+             <div class="w-[374px] h-[210px] bg-[#629CF319] rounded-2xl p-8 ">
+              <img class="pb-6" src="Images/group3.png" alt="">
+              <p class="text-[ #13131866]">Location :  </p>
+              <h4 class="text-xl text-text-color font-extrabold">152/1 Mohakhali Wireless Gate</h4>
+            </div>
+          </div>
+          <div class="lg:col-span-2 px-12">
+
+            <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+              <div>
+                <label class="text-text-color text-xl font-bold " for="">Your Name</label>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered  my-4 w-[335px] lg:w-full " />
+              </div>
+              <div>
+                <label class="text-text-color text-xl font-bold " for="">Your Email</label>
+                <input type="email" placeholder="Enter your email" class="input input-bordered my-4 w-[335px] lg:w-full " />
+
+              </div>
+            </div>
+
+            <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+              <div>
+                <label class="text-text-color text-xl font-bold " for="">Subject</label>
+                <input type="text" placeholder="Enter your subject" class="input input-bordered my-4 w-[335px] lg:w-full " />
+              </div>
+              <div>
+                <label class="text-text-color text-xl font-bold "  for="">Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number" class="input input-bordered my-4 w-[335px] lg:w-full " />
+
+              </div>
+            </div>
+            <div class="mt-4">
+              <label class="text-text-color text-xl font-bold " for="">Message</label>
+              <textarea class="textarea textarea-bordered my-4 w-[335px] lg:w-full h-[200px] lg:h-[370px]" placeholder="Write your message"></textarea>
+            </div>
+            <button class="bg-button-bg w-full py-4 rounded-xl text-white text-xl font-bold">Send Message</button>
+
+
+          </div>
+
+
+         </div>
 
         </section>
         <!-- Social Media section start here -->
@@ -451,8 +513,43 @@
            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-[#131318] lg:text-base-content mt-24">
+      <div class="space-y-5">
+        <h3 class="text-[#FFF] text-3xl font-extrabold">Get In Touch</h3>
+        <p class="w-[346px] text-[#FFFFFF99] font-medium">Connect with us! Reach out for inquiries, collaborations, or just to say hello. We value your feedback and look forward to hearing from you. Let's stay connected!</p>
+      <div class="flex space-x-4">
+        <img src="Images/frame4.png" alt="">
+        <p class=" text-[#FFFFFF99] font-medium">hockeys@support.com</p>
+       </div>
+        <div class="flex space-x-4">
+          <img src="Images/frame5.png" alt="">
+        <p class=" text-[#FFFFFF99] font-medium">01624096876</p>
+        </div>
+      </div>
+      <nav>
+        <header class="footer-title text-[#FFF] text-xl font-bold">Company</header> 
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">About us</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Leadership</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Careers</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">News & Article</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Legal Notice</a>
+       
+      </nav> 
+      <nav>
+        <header class="footer-title text-[#FFF] text-xl font-bold">Support</header> 
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Help Center</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">FAQ</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Ticket Support</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">News & Article</a>
+      </nav> 
+      <nav>
+        <header class="footer-title text-[#FFF] text-xl font-bold">Services</header> 
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Academy</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Group Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Private Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Hockeys for kids</a>
+        <a class="link link-hover text-[#FFFFFF99] font-medium ">Hockeys for Adult</a>
+      </nav>
     </footer>
 </body>
 </html>
